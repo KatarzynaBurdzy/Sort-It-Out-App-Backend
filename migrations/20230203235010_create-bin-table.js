@@ -47,8 +47,8 @@ exports.up = function (knex) {
  */
 exports.down = function (knex) {
   return knex.schema
-    .dropTableIfExists("Planed Dates")
-    .dropTableIfExists("Regions")
-    .dropTableIfExists("Trash")
-    .dropTableIfExists("Bin");
+    .dropTableIfExists("planed dates")
+    .dropTableIfExists("regions")
+    .dropTableIfExists("trash")
+    .dropTableIfExists("bin");
 };
